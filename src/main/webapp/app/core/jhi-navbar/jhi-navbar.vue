@@ -24,6 +24,14 @@
             <span v-text="t$('global.menu.home')"></span>
           </span>
         </b-nav-item>
+
+        <b-nav-item to="/clock" exact>
+          <span>
+            <font-awesome-icon icon="clock" />
+            <span v-text="t$('global.menu.clock')"></span>
+          </span>
+        </b-nav-item>
+
         <b-nav-item-dropdown right id="entity-menu" v-if="authenticated" active-class="active" class="pointer" data-cy="entity">
           <template #button-content>
             <span class="navbar-dropdown-menu">
