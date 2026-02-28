@@ -39,6 +39,7 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons/faUserPlus';
 import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import { faUsersCog } from '@fortawesome/free-solid-svg-icons/faUsersCog';
 import { faWrench } from '@fortawesome/free-solid-svg-icons/faWrench';
+import { faClock } from '@fortawesome/free-solid-svg-icons/faClock';
 
 const datetimeFormats: IntlDateTimeFormats = {
   'pt-br': {
@@ -98,6 +99,7 @@ export function initFortAwesome(vue) {
   vue.component('font-awesome-icon', FontAwesomeIcon);
 
   library.add(
+    faClock,
     faArrowLeft,
     faAsterisk,
     faBan,

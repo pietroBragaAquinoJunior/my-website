@@ -27,7 +27,7 @@
 
         <b-nav-item to="/clock" exact>
           <span>
-            <font-awesome-icon icon="clock" />
+            <font-awesome-icon icon="fa-clock" />
             <span v-text="t$('global.menu.clock')"></span>
           </span>
         </b-nav-item>
